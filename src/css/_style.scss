@@ -1,0 +1,15 @@
+@import './var';
+
+body {
+    background-color: $back;
+    font-family: 'Montserrat';
+    color: $text;
+    user-select: none;
+}
+
+.image {
+    width: 600px;
+    height: 500px;
+    background-size: cover;
+    background-image: url('img/cat2.jpg');
+}
